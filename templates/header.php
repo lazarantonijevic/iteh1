@@ -1,3 +1,7 @@
+<?php
+
+?>
+
 <head>
     <title>PremierLeague</title>
     <link rel="icon" href="img/icon.png">
