@@ -3,40 +3,14 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-    <title>PremierLeague</title>
-    <link rel="icon" href="img/icon.png">
+<?php include('templates/header.php'); ?>
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
-    <link rel="stylesheet" type="text/css" href="style.css">
-</head>
 
-<body class="blue lighten-4">
-    <nav class="blue darken-3">
-        <div class="container">
-            <a href="index.php" class="title-text">PremierLeague</a>
-            <ul class="right hide-on-small-and-down navul">
-                <li>
-                    <a href="ubaci link ka svim igracima" class="btn white blue-text nav-text z-depth-0">
-                        All Players
-                    </a>
-                </li>
-                <li>
-                    <a href="ubaci link za dodavanje" class="btn white blue-text nav-text z-depth-0">
-                        Add A Player
-                    </a>
-                </li>
-            </ul>
-        </div>
-    </nav>
+<div class="row">
+    <p>Ovde listaj igrace</p>
+</div>
 
-    <div class="row">
-        <p>Ovde listaj igrace</p>
-    </div>
 
-    <footer style="padding-top: 40px">
-    <div class="center grey-text text-darken-2">&copy; 2023 PremierLeague</div>
-</footer>
-</body>
+<?php include('templates/footer.php'); ?>
 
 </html>
