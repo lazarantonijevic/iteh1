@@ -17,6 +17,23 @@
             font-weight: 600;
         }
 
+        .card-zaobljeno {
+            border-radius: 20px;
+        }
+
+        .card-logo {
+            width: 100px;
+            margin: 40px auto -30px;
+            display: block;
+            position: relative;
+            top: -30px;
+        }
+
+        .team-logo {
+            margin-left: 45%;
+            max-width: 10%;
+            height: auto;
+        }
     </style>
 </head>
 
