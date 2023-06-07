@@ -34,6 +34,15 @@
             max-width: 10%;
             height: auto;
         }
+
+        .form {
+            padding: 10px;
+            margin-left: 25%;
+            width: 50%;
+            text-align: center;
+            border-radius: 15px;
+        }
+
     </style>
 </head>
 
@@ -43,12 +52,12 @@
             <a href="index.php" class="title-text">PremierLeague</a>
             <ul class="right hide-on-small-and-down navul">
                 <li>
-                    <a href="ubaci link ka svim igracima" class="btn white blue-text nav-text z-depth-0">
+                    <a href="players.php" class="btn white blue-text nav-text z-depth-0">
                         All Players
                     </a>
                 </li>
                 <li>
-                    <a href="ubaci link za dodavanje" class="btn white blue-text nav-text z-depth-0">
+                    <a href="add.php" class="btn white blue-text nav-text z-depth-0">
                         Add A Player
                     </a>
                 </li>
