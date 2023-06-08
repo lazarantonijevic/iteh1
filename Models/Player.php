@@ -27,5 +27,22 @@ class Player
         $this->birth = $birth;
         $this->created_at = $created_at;
     }
-    
+    public function createPlayer()
+    {
+        $host = 'localhost';
+        $user = 'korisnik';
+        $password = 'sifra';
+        $database = 'premierleague';
+        $conn = mysqli_connect($host, $user, $password, $database);
+
+        $query = "INSERT INTO player(teamid, name, nationality, position, birth)
+        VALUES('$this->teamid', '$this->name', '$this->nationality', '$this->position',
+            '$this->birth')";
+
+        if (mysqli_query($conn, $query)) {
+            header('Location: index.php');
+        } else {
+            echo 'Error: ' . mysqli_error($conn);
+        }
+    }
 }

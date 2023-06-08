@@ -24,7 +24,7 @@ mysqli_free_result($result);
                 <div class="card-content center">
                     <h5><?php echo htmlspecialchars($team['name']); ?></h5>
                 </div>
-                <div class="card-action right-align radius-card">
+                <div class="card-action right-align card-zaobljeno">
                     <a href="team.php?id=<?php echo $team['id']; ?>" class="blue-text text-darken-2">
                         More Info
                     </a>
